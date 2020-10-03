@@ -15,10 +15,9 @@ int main(int argc, char* argv[])
         case 0:
             if ( execvp(argv[1], &argv[1]) == -1 ) 
             {
-                perror("execl");
+                perror("exec");
                 return 1;
             }
-            break;
         default:
             if (wait(&status) >= 0)
             {
