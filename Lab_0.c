@@ -27,7 +27,6 @@ int main(int argc, char* argv[])
                     printf("%d \n", WEXITSTATUS(status));
                 }
             }
-            printf("That's all!\n");
             break;
     }
     return 0;
