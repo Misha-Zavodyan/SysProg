@@ -9,7 +9,7 @@ int lm=0;
 int nm=0;
 int line[100][100];
 char ch;
-FILE *file = fopen("hello.txt","r");
+FILE *file = fopen("tt.txt","r");
 line[0][0];
 while (read(file, &ch , sizeof(char))>0){
 nm++;
