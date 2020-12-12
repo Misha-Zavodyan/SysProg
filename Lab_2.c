@@ -19,7 +19,7 @@ struct FileMapping {
   size_t fsize;
   unsigned char* dataPtr;
 };
-int fd = open( "text.txt", O_RDONLY, 0 );
+int fd = open( "tt.txt", O_RDONLY, 0 );
 if(fd<=0){
 printf("-1");
 }
